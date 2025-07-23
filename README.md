@@ -1,5 +1,9 @@
 ## following tutorial: https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library
 
+## useful links:
+1. https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles
+2. https://testing-library.com/docs/
+
 # Doggy Directory
 <!-- PROJECT LOGO -->
 <br />
