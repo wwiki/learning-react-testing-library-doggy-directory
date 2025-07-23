@@ -15,6 +15,7 @@ const dogImagesResponse = {
 };
 
 export default async function mockFetch(url) {
+    console.log(url);
     switch (url) {
         case "https://dog.ceo/api/breeds/list/all": {
             return {

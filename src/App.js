@@ -8,15 +8,18 @@ function App() {
   const [dogImages, setDogImages] = useState([]);
 
   useEffect(() => {
+    console.log('nihao');
     fetch("https://dog.ceo/api/breeds/list/all")
       .then((response) => {
         if (response.status === 200 || response.ok) {
+          console.log('laile'); console.log(response.json());
           return response.json();
         } else {
           throw new Error(`HTTP error status: ${response.status}`);
         }
       })
       .then((json) => {
+        console.log(2323,json)
         setBreeds(Object.keys(json.message));
       });
   }, []);

@@ -1,3 +1,5 @@
+## following tutorial: https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library
+
 # Doggy Directory
 <!-- PROJECT LOGO -->
 <br />
